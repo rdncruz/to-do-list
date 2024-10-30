@@ -26,7 +26,7 @@ export default function Home() {
                 <label>
                     <div className="relative ">
                         <input 
-                            type="text" 
+                            type="password" 
                             placeholder="Enter your password"
                             className="mt-1 w-full px-12 py-2 pl-10 bg-white border-b-4 border-slate-300 rounded-md text-sm shadow-sm outline-none" 
                         />
@@ -34,7 +34,6 @@ export default function Home() {
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
                                 <path fillRule="evenodd" d="M12 1.5a5.25 5.25 0 0 0-5.25 5.25v3a3 3 0 0 0-3 3v6.75a3 3 0 0 0 3 3h10.5a3 3 0 0 0 3-3v-6.75a3 3 0 0 0-3-3v-3c0-2.9-2.35-5.25-5.25-5.25Zm3.75 8.25v-3a3.75 3.75 0 1 0-7.5 0v3h7.5Z" clipRule="evenodd" />
                             </svg>
-
                         </div>
                     </div>
                 </label>
@@ -49,18 +48,17 @@ export default function Home() {
                     Continue As Guest
                 </button>
                 <p className="font-sans text-sm mt-2 py-2 "> Don't have an account?
-                    <a href="http://" className="text-red-600 pl-2 font-bold">Signup now</a>
+                    <span className="text-red-600 pl-2 font-bold"><Link href="/register">Signup now</Link></span>
                 </p>
             </div>
         </div>
         <Image
           className="-ml-14 mr-14 h-screenflex items-center justify-center rounded-r-lg shadow-lg"
-          src="/bg.jpg"
+          src="/bg-right.jpg"
           width={390}
           height={390}
           alt="background-left"
         />
     </div>
-    
   );
 }
