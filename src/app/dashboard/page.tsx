@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function dashboard() {
     return (
-        <div className="h-screen w-screen bg-gradient-to-b from-[#FCE7CC] to-transparent">
+        <div className="h-screen w-screen bg-gradient-to-b from-[#FCE7CC] to-transparent inline-flex">
             <aside className=" h-screen w-full max-w-[19rem] flex-col   bg-gradient-to-r from-orange-200 to-orange-300 bg-clip-border p-4 text-gray-700 shadow-xl shadow-blue-gray-900/5">
                 <div className="mx-3 p-2">
                     <div className="flex flex-initial justify-between items-center mb-6 -mr-5">
@@ -23,7 +23,7 @@ export default function dashboard() {
                                     </svg>
                                 </div>
                                 <span>Sticky Note</span> 
-                             </Link>
+                            </Link>
                             
                         </li>
                         <li className="pl-16 mb-2 rounded-lg font-sans font-bold bg-[#FCE7CC] p-3 w-60">
@@ -118,6 +118,35 @@ export default function dashboard() {
                     </ul>
                 </div>
             </aside>
+            <div className="h-16 p-5 w-screen bg-black">
+                <h1 className="text-white">Sticky Notes</h1>
+                <div className="mt-16 flex">
+                    <div className="p-5 mr-4 h-80 w-64 bg-yellow-400 rounded-2xl shadow-2xl">
+                        <h1>Social Media</h1>
+                        <p>-Plan social content</p>
+                        <p>-Plan social content</p>
+                        <p>-Plan social content</p>
+                        <p>-Plan social content</p>
+                    </div>
+                    <div className="p-5 mr-4 h-80 w-64 bg-yellow-400 rounded-2xl shadow-2xl">
+                        <h1>Social Media</h1>
+                        <p>-Plan social content</p>
+                        <p>-Plan social content</p>
+                        <p>-Plan social content</p>
+                        <p>-Plan social content</p>
+                    </div>
+                    <div className="p-5 mr-4 h-80 w-64 bg-yellow-400 rounded-2xl shadow-2xl">
+                        <h1>Social Media</h1>
+                        <p>-Plan social content</p>
+                        <p>-Plan social content</p>
+                        <p>-Plan social content</p>
+                        <p>-Plan social content</p>
+                    </div>
+                    
+                </div>
+                
+            </div>
         </div>
+
     );
 }
