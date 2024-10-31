@@ -51,7 +51,7 @@ export default function Home() {
                 </button>
                 <h1 className="text-slate-950 p-1 font-bold">or</h1>
                 <button className="w-full text-xl font-black text-white bg-amber-900 rounded-lg p-3 h-27">
-                    Continue As Guest
+                    <Link href="/dashboard">Continue As Guest</Link>
                 </button>
                 <p className="font-sans text-sm mt-2 py-2 "> Don't have an account?
                     <span className="text-red-600 pl-2 font-bold"><Link href="/register">Signup now</Link></span>
