@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export default function dashboard() {
     return (
-        <div className="h-screen w-screen bg-gradient-to-b from-[#FCE7CC] to-transparent inline-flex">
-            <aside className=" h-screen w-full max-w-[19rem] flex-col   bg-gradient-to-r from-orange-200 to-orange-300 bg-clip-border p-4 text-gray-700 shadow-xl shadow-blue-gray-900/5">
+        <div className="h-screen w-screen bg-gradient-to-b from-[#FCE7CC] to-transparent inline-flex overflow-x-hidden">
+            <aside className=" h-screen w-full max-w-[19rem] flex-col absolute bg-gradient-to-r from-orange-200 to-orange-300 bg-clip-border p-4 text-gray-700 shadow-xl shadow-blue-gray-900/5">
                 <div className="mx-3 p-2">
                     <div className="flex flex-initial justify-between items-center mb-6 -mr-5">
                         <h1 className="font-serif font-extrabold text-3xl flex flex-inline">Menu</h1>
@@ -118,31 +118,56 @@ export default function dashboard() {
                     </ul>
                 </div>
             </aside>
-            <div className="h-16 p-5 w-screen bg-black">
+            <div className="h-16 p-5 w-screen ml-[19rem] bg-black ">
                 <h1 className="text-white">Sticky Notes</h1>
-                <div className="mt-16 flex">
-                    <div className="p-5 mr-4 h-80 w-64 bg-yellow-400 rounded-2xl shadow-2xl">
+                <div className="mt-10 flex-wrap flex justify-center">
+                    <div className="p-5 my-4 mr-4 h-80 w-64 bg-[#FFF9B1] rounded-2xl shadow-2xl">
                         <h1>Social Media</h1>
                         <p>-Plan social content</p>
                         <p>-Plan social content</p>
                         <p>-Plan social content</p>
                         <p>-Plan social content</p>
                     </div>
-                    <div className="p-5 mr-4 h-80 w-64 bg-yellow-400 rounded-2xl shadow-2xl">
+                    <div className="p-5 my-4 mr-4 h-80 w-64 bg-[#ffc000] rounded-2xl shadow-2xl">
                         <h1>Social Media</h1>
                         <p>-Plan social content</p>
                         <p>-Plan social content</p>
                         <p>-Plan social content</p>
                         <p>-Plan social content</p>
                     </div>
-                    <div className="p-5 mr-4 h-80 w-64 bg-yellow-400 rounded-2xl shadow-2xl">
+                    <div className="p-5 my-4 mr-4 h-80 w-64 bg-[#6ED8FA] rounded-2xl shadow-2xl">
                         <h1>Social Media</h1>
                         <p>-Plan social content</p>
                         <p>-Plan social content</p>
                         <p>-Plan social content</p>
                         <p>-Plan social content</p>
                     </div>
-                    
+                    <div className="p-5 my-4 mr-4 h-80 w-64 bg-[#FFCEE0] rounded-2xl shadow-2xl">
+                        <h1>Social Media</h1>
+                        <p>-Plan social content</p>
+                        <p>-Plan social content</p>
+                        <p>-Plan social content</p>
+                        <p>-Plan social content</p>
+                    </div>
+                    <div className="p-5 my-4 mr-4 h-80 w-64 bg-[#daf7a1] rounded-2xl shadow-2xl">
+                        <h1>Social Media</h1>
+                        <p>-Plan social content</p>
+                        <p>-Plan social content</p>
+                        <p>-Plan social content</p>
+                        <p>-Plan social content</p>
+                    </div>
+                    <div className="p-5 my-4 mr-4 h-80 w-64 bg-[#77ccc7] rounded-2xl shadow-2xl">
+                        <h1>Social Media</h1>
+                        <p>-Plan social content</p>
+                        <p>-Plan social content</p>
+                        <p>-Plan social content</p>
+                        <p>-Plan social content</p>
+                    </div>
+                    <div className="p-5 my-4 mr-4 h-80 w-64 flex justify-center items-center bg-[#F5F6F8] rounded-2xl shadow-2xl cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-16">
+                            <path fill-rule="evenodd" d="M12 3.75a.75.75 0 0 1 .75.75v6.75h6.75a.75.75 0 0 1 0 1.5h-6.75v6.75a.75.75 0 0 1-1.5 0v-6.75H4.5a.75.75 0 0 1 0-1.5h6.75V4.5a.75.75 0 0 1 .75-.75Z" clip-rule="evenodd" />
+                        </svg>
+                    </div>
                 </div>
                 
             </div>
